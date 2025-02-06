@@ -1,0 +1,288 @@
+# Copyright (C) 2023 Your Name
+# This file is distributed under the same license as the Pool Fence Gallery Filter plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pool Fence Gallery Filter 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-15 12:00+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: includes/class-gallery-filter.php:15
+msgid "Pool Fence Gallery Filter"
+msgstr ""
+
+#: includes/class-gallery-filter.php:16
+msgid "Advanced gallery filter with metadata support for franchise websites."
+msgstr ""
+
+#: includes/class-gallery-filter.php:17
+msgid "Your Name"
+msgstr ""
+
+#: includes/class-gallery-filter.php:18
+msgid "pool-fence-gallery-filter"
+msgstr ""
+
+#: includes/class-gallery-filter.php:50
+msgid "Import Metadata"
+msgstr ""
+
+#: includes/class-gallery-filter.php:51
+msgid "Import Metadata"
+msgstr ""
+
+#: includes/class-gallery-filter.php:52
+msgid "manage_options"
+msgstr ""
+
+#: includes/class-gallery-filter.php:53
+msgid "import-metadata"
+msgstr ""
+
+#: includes/class-gallery-filter.php:54
+msgid "Import Image Metadata"
+msgstr ""
+
+#: includes/class-gallery-filter.php:55
+msgid "Metadata imported successfully!"
+msgstr ""
+
+#: includes/class-gallery-filter.php:56
+msgid "Error importing metadata."
+msgstr ""
+
+#: includes/class-gallery-filter.php:57
+msgid "No metadata file uploaded."
+msgstr ""
+
+#: includes/class-gallery-filter.php:58
+msgid "Invalid JSON file."
+msgstr ""
+
+#: includes/class-gallery-filter.php:59
+msgid "No images found in the metadata file."
+msgstr ""
+
+#: includes/class-gallery-filter.php:60
+msgid "No images match your selected filters."
+msgstr ""
+
+#: includes/class-gallery-filter.php:61
+msgid "Clear All Filters"
+msgstr ""
+
+#: includes/class-gallery-filter.php:62
+msgid "Border Color"
+msgstr ""
+
+#: includes/class-gallery-filter.php:63
+msgid "Mesh Color"
+msgstr ""
+
+#: includes/class-gallery-filter.php:64
+msgid "Pole Color"
+msgstr ""
+
+#: includes/class-gallery-filter.php:65
+msgid "Fence Height"
+msgstr ""
+
+#: includes/class-gallery-filter.php:66
+msgid "Fence Layout"
+msgstr ""
+
+#: includes/class-gallery-filter.php:67
+msgid "Gate"
+msgstr ""
+
+#: includes/class-gallery-filter.php:68
+msgid "Pool Shape"
+msgstr ""
+
+#: includes/class-gallery-filter.php:69
+msgid "Surface"
+msgstr ""
+
+#: includes/class-gallery-filter.php:70
+msgid "Upgrades"
+msgstr ""
+
+#: includes/class-gallery-filter.php:71
+msgid "Select Border Color"
+msgstr ""
+
+#: includes/class-gallery-filter.php:72
+msgid "Select Mesh Color"
+msgstr ""
+
+#: includes/class-gallery-filter.php:73
+msgid "Select Pole Color"
+msgstr ""
+
+#: includes/class-gallery-filter.php:74
+msgid "Select Fence Height"
+msgstr ""
+
+#: includes/class-gallery-filter.php:75
+msgid "Select Fence Layout"
+msgstr ""
+
+#: includes/class-gallery-filter.php:76
+msgid "Select Gate Type"
+msgstr ""
+
+#: includes/class-gallery-filter.php:77
+msgid "Select Pool Shape"
+msgstr ""
+
+#: includes/class-gallery-filter.php:78
+msgid "Select Surface Type"
+msgstr ""
+
+#: includes/class-gallery-filter.php:79
+msgid "Alarm"
+msgstr ""
+
+#: includes/class-gallery-filter.php:80
+msgid "Ground Solar Lights"
+msgstr ""
+
+#: includes/class-gallery-filter.php:81
+msgid "Top Pole Solar Lights"
+msgstr ""
+
+#: includes/class-gallery-filter.php:82
+msgid "Volleyball Net"
+msgstr ""
+
+#: includes/class-gallery-filter.php:83
+msgid "Black"
+msgstr ""
+
+#: includes/class-gallery-filter.php:84
+msgid "Brown"
+msgstr ""
+
+#: includes/class-gallery-filter.php:85
+msgid "Tan"
+msgstr ""
+
+#: includes/class-gallery-filter.php:86
+msgid "White"
+msgstr ""
+
+#: includes/class-gallery-filter.php:87
+msgid "Copper Vein"
+msgstr ""
+
+#: includes/class-gallery-filter.php:88
+msgid "3.5 feet"
+msgstr ""
+
+#: includes/class-gallery-filter.php:89
+msgid "4 feet"
+msgstr ""
+
+#: includes/class-gallery-filter.php:90
+msgid "5 feet"
+msgstr ""
+
+#: includes/class-gallery-filter.php:91
+msgid "Pet Fence"
+msgstr ""
+
+#: includes/class-gallery-filter.php:92
+msgid "Complete"
+msgstr ""
+
+#: includes/class-gallery-filter.php:93
+msgid "Partial"
+msgstr ""
+
+#: includes/class-gallery-filter.php:94
+msgid "Arched"
+msgstr ""
+
+#: includes/class-gallery-filter.php:95
+msgid "Flat"
+msgstr ""
+
+#: includes/class-gallery-filter.php:96
+msgid "None"
+msgstr ""
+
+#: includes/class-gallery-filter.php:97
+msgid "90-degree turns"
+msgstr ""
+
+#: includes/class-gallery-filter.php:98
+msgid "Above Ground"
+msgstr ""
+
+#: includes/class-gallery-filter.php:99
+msgid "Freeform"
+msgstr ""
+
+#: includes/class-gallery-filter.php:100
+msgid "Ginormous"
+msgstr ""
+
+#: includes/class-gallery-filter.php:101
+msgid "Kidney"
+msgstr ""
+
+#: includes/class-gallery-filter.php:102
+msgid "Oval"
+msgstr ""
+
+#: includes/class-gallery-filter.php:103
+msgid "Rectangle"
+msgstr ""
+
+#: includes/class-gallery-filter.php:104
+msgid "Bricks"
+msgstr ""
+
+#: includes/class-gallery-filter.php:105
+msgid "Chattahoochee"
+msgstr ""
+
+#: includes/class-gallery-filter.php:106
+msgid "Concrete"
+msgstr ""
+
+#: includes/class-gallery-filter.php:107
+msgid "Earth"
+msgstr ""
+
+#: includes/class-gallery-filter.php:108
+msgid "Natural Stone"
+msgstr ""
+
+#: includes/class-gallery-filter.php:109
+msgid "Pavers"
+msgstr ""
+
+#: includes/class-gallery-filter.php:110
+msgid "Tile"
+msgstr ""
+
+#: includes/class-gallery-filter.php:111
+msgid "Travertine"
+msgstr ""
+
+#: includes/class-gallery-filter.php:112
+msgid "Artificial Turf"
+msgstr ""
+
+#: includes/class-gallery-filter.php:113
+msgid "Wood/Composite Deck"
+msgstr ""

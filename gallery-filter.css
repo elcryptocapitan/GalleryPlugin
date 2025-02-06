@@ -1,0 +1,249 @@
+/* Gallery Filter Container */
+.gallery-filters {
+    position: relative;
+    z-index: 100;
+    margin-bottom: 20px;
+    background: transparent;
+    padding: 20px;
+    box-shadow: none;
+}
+
+/* Filter Row Layout */
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Filter Section (Individual Filter Group) */
+.filter-section {
+    flex: 1 1 calc(33.333% - 15px);
+    max-width: calc(33.333% - 15px);
+    margin-bottom: 1em;
+}
+
+.filter-section:last-child {
+    margin-bottom: 0;
+}
+
+.filter-section h4 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Filter Options Grid */
+.filter-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 6px;
+}
+
+/* Individual Filter Option */
+.filter-option {
+    display: flex;
+    align-items: center;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.filter-option input[type="radio"] {
+    display: none;
+}
+
+.filter-option label {
+    background: white;
+    display: block;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 70px;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.filter-option label:hover {
+    border-color: #0076BF;
+    color: #0076BF;
+}
+
+.filter-option input[type="radio"]:checked + label {
+    background-color: #0076BF;
+    color: white;
+    border-color: #0076BF;
+    box-shadow: 0 2px 4px rgba(0, 118, 191, 0.2);
+}
+
+/* Filter Group Styles */
+.filter-group {
+    margin-bottom: 8px;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.filter-group:not(.collapsed) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 101;
+}
+
+/* Filter Group Title */
+.filter-group-title {
+    background: white;
+    padding: 12px 20px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.filter-group-title:hover {
+    background: #f0f0f0;
+}
+
+.filter-group-title::after {
+    content: '▼';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+    font-size: 14px;
+    color: #666;
+}
+
+.filter-group.collapsed .filter-group-title::after {
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+/* Filter Group Content */
+.filter-group-content {
+    background: transparent;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 1000px;
+    padding: 15px;
+}
+
+.filter-group.collapsed .filter-group-content {
+    padding: 0;
+    max-height: 0;
+}
+
+/* Clear Filters Button */
+.clear-filters-btn {
+    background: #f0f0f0;
+    border: 2px solid #ddd;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    color: #666;
+    display: inline-block;
+}
+
+.clear-filters-btn:hover {
+    background: #e0e0e0;
+    border-color: #ccc;
+    color: #333;
+}
+
+/* Gallery Grid Styles */
+.et_pb_gallery_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.et_pb_gallery_item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.et_pb_gallery_item:hover {
+    transform: scale(1.05);
+}
+
+.et_pb_gallery_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* No Results Message */
+.no-results {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    grid-column: 1 / -1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .gallery-filters {
+        padding: 15px;
+    }
+
+    .filter-section {
+        flex: 1 1 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+
+    .filter-options {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    }
+
+    .filter-option label {
+        font-size: 12px;
+        padding: 3px 8px;
+        min-width: 60px;
+        max-width: 90px;
+    }
+
+    .filter-group-title {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-section {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .filter-options {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .filter-option label {
+        min-width: 50px;
+        max-width: 80px;
+    }
+}
